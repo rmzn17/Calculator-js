@@ -1,0 +1,36 @@
+form
+	{
+      width: 300px;
+      background:#778899;
+      padding: 30px 15px 15px 15px;
+
+      -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,.75);
+       box-shadow: 0 2px 5px 2px rgba(0,0,0,.75);
+       text-align: center;
+	}
+
+	input[type="text"]
+	{
+		width: 100%;
+		padding: 5px 5px;
+		font-size:35px;
+		box-sizing: border-box;
+		text-align: right;
+		font-family: 'orbitron',sans-serif
+
+	}
+   input[type="button"]
+	{
+		width: 68px;
+		height: 55px;
+		background:darkgray;
+		color: black;
+		font-size:25px;
+		margin-bottom: 5px;
+	
+	}
+
+hr
+{
+	margin: 15px 0;
+}

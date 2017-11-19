@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator Using Javascript</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+
+	<style type="text/css">
+		
+  
+	</style>
+</head>
+<body style="background-color:#2F4F4F">
+
+<center>
+<form  action="" name="Calculator">
+
+<h1 style="text-align: center; margin-bottom: 2%;margin-top: 0%;color: 	#A52A2A" >Calculator</h1>
+<input style="background-color:#DCDCDC;" type="text" name="display" disabled=""><br> <hr>
+
+<input type="Button" name="SquareRoot" value="&radic;" onclick="Calculator.display.value= Math.sqrt(Calculator.display.value)">
+<input type="Button" name="CE" value="x2" onclick="Calculator.display.value=Math.pow(Calculator.display.value,2)">
+<input type="Button" name="All Clear" value="AC" onclick="Calculator.display.value=''">
+<input type="Button" name="Delete" value="DEL" onclick="Calculator.display.value=Calculator.display.value.slice(0,-1)">
+<br>
+<input type="Button" name="seven" value="7" onclick="Calculator.display.value+='7'">
+<input type="Button" name="eight" value="8" onclick="Calculator.display.value+='8'">
+<input type="Button" name="nine" value="9" onclick="Calculator.display.value+='9'">
+<input type="Button" name="mul" value="*" onclick="Calculator.display.value+='*'">
+<br>
+<input type="Button" name="four" value="4" onclick="Calculator.display.value+='4'">
+<input type="Button" name="five" value="5" onclick="Calculator.display.value+='5'">
+<input type="Button" name="six" value="6" onclick="Calculator.display.value+='6'">
+<input type="Button" name="div" value="/" onclick="Calculator.display.value+='/'">
+<br>
+
+<input type="Button" name="one" value="1" onclick="Calculator.display.value+='1'">
+<input type="Button" name="two" value="2" onclick="Calculator.display.value+='2'">
+<input type="Button" name="three" value="3" onclick="Calculator.display.value+='3'">
+<input type="Button" name="plus" value="+" onclick="Calculator.display.value+='+'">
+<br>
+
+<input type="Button" name="zero" value="0" onclick="Calculator.display.value+='0'">
+<input type="Button" name="dot" value="."onclick="Calculator.display.value+='.'">
+<input type="Button" name="equal" value="=" onclick="Calculator.display.value=eval(Calculator.display.value)">
+<input type="Button" name="Minus" value="-" onclick="Calculator.display.value+='-'">
+
+
+</form>
+</center>
+</body>
+</html>
